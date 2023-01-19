@@ -13,12 +13,12 @@
         <input type="submit" value="Buscar">
     </form>
     {% if productos %}
-    <p>Estamos buscando el: {{nombre}}</p>
+    <p>Estas buscando el juego --> {{nombre}}</p>
     <ul>
 	{% for producto in productos %}
-		<li> {{producto.nombre}} </li>
-		<li> {{producto.genero}} </li>
-		<li> {{producto.creador}} </li>
+		<li> Nombre: {{producto.nombre}} </li>
+		<li> Género: {{producto.genero}} </li>
+		<li> Desarrollador: {{producto.creador}} </li>
 	{% endfor %}
     </ul>
     {% endif %}

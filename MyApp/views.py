@@ -111,6 +111,6 @@ def register(request):
 
 from django.contrib.auth.decorators import login_required
 
-@login_required
-def inicio(request):
-    return render(request, "MyApp/inicio.html")
+# @login_required
+# def inicio(request):
+#     return render(request, "MyApp/inicio.html")

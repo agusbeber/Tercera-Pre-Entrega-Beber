@@ -19,6 +19,6 @@ En esta entrega, se disponibilizaron las siguientes funcionalidades:
 3. Desarrolladores: Desde este apartado, los usuarios que sean desarrolladores de videojuegos pueden ingresar el nombre de su empresa indie
 4. Compradores: Los usuarios que deseen comprar juegos pueden ingresar sus datos aquí
 4. Vendedores: Los usuarios que deseen vender juegos pueden ingresar sus datos aquí
-5. INICIAR: Mediante el botón INICIAR, los usuarios podrán loguearse
+5. LOGIN: Mediante el botón LOGIN, los usuarios podrán loguearse
 
 Por otro lado, están los íconos que redireccionan a las redes sociales y los botones de Ayuda y Contacto
