@@ -1,0 +1,25 @@
+{% extends "MyApp/padre.html" %}
+
+{% load static %}
+
+{% block contenidoQueCambia %}
+
+
+    <!--Aquí va lo que cambia, y lo asociado a está vista :) -->
+    <h1>Bienvenido!</h1>
+    <h3>Podes buscar un videojuego:</h3>
+    <form action="/MyApp/buscar/" method="GET">
+        <input type="text" name="nombre" id="juego">
+        <input type="submit" value="Buscar">
+    </form>
+    {% if productos %}
+    <p>Estamos buscando el: {{nombre}}</p>
+    <ul>
+	{% for producto in productos %}
+		<li> {{producto.nombre}} </li>
+		<li> {{producto.genero}} </li>
+		<li> {{producto.creador}} </li>
+	{% endfor %}
+    </ul>
+    {% endif %}
+{% endblock %}
